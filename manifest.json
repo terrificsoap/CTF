@@ -1,0 +1,1264 @@
+{
+  "tournament": "GLUBINA CTF 2026",
+  "generated_at": "2026-10-04T17:30:16",
+  "bundles": [
+    {
+      "dir": "01-crypto-encoding",
+      "title": "01 — Архив BABEL-7 *(Crypto & Encoding, 900 pts)*",
+      "points": 900,
+      "bundle": "release/900-01-crypto-encoding",
+      "files": [
+        {
+          "path": "TASK.md",
+          "bytes": 5732,
+          "sha256": "6473849c02cfbca60fe3e0dcf6a37d2a34f69d8021d41b0f71f2f33f45b3250c",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/ec/msg_1.bin",
+          "bytes": 158,
+          "sha256": "386e4033f636e45cf037c23755dc754d0981932c3b5013e80e006e1e9459ad7c",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/ec/parrot_pub.bin",
+          "bytes": 33,
+          "sha256": "d0cce384c7d4a308e281fc8f0e56645c1208459faf2e8a1b0d3bc3d053597911",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/ec/parrot_sigs.bin",
+          "bytes": 128,
+          "sha256": "d97a0c557aacb9dfba391080a039d66a0f81938539663999212267bff9ad0999",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/keys/ct_01.bin",
+          "bytes": 192,
+          "sha256": "fc066bc750960ca2591a96ae9d1b5bfda7a2e116304c6fa034e4bd2ff6656a47",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/keys/ct_02.bin",
+          "bytes": 192,
+          "sha256": "c0bfaac38afd6e1c6f7ea0f802bbb6f7ecc49c475eecf70de18a86a868dba3db",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/keys/ct_03.bin",
+          "bytes": 256,
+          "sha256": "2e908d484bcbbb8edfd5c4eef35155e8b3a442f055043854966e0544afe56fb6",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/keys/ct_04.bin",
+          "bytes": 256,
+          "sha256": "9b163af478ee2a2dbeb666d49149fd47a64f0b35cc772e47d8021953b268cdd4",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/keys/ct_05.bin",
+          "bytes": 256,
+          "sha256": "e4ec2446e0dd1ffabb9ab98811de4aace2d0f8f8063d519474587663f6cc2696",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/keys/ct_06.bin",
+          "bytes": 128,
+          "sha256": "00302dab41afed79a13373f0f2e1d04cd41eb1cd0f65c1e0bc05d5dd655b82f3",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/keys/ct_07.bin",
+          "bytes": 256,
+          "sha256": "11b9fa12e9a00b92f442f115663c306d6c2391dc03cdfc1df83958cd5b73c648",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/keys/ct_08.bin",
+          "bytes": 256,
+          "sha256": "bf7fbd588dd958554a2965e52907dab59a5a02ab68a72fa97b59463500826da2",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/keys/ct_09.bin",
+          "bytes": 256,
+          "sha256": "8c7bcfaa2d6ac51d7d3da7215e53114e04e9f272a80962334f47c458bf793b4b",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/keys/ct_10.bin",
+          "bytes": 256,
+          "sha256": "9ad5c003339d314c514016bc76d7f3463598ba98711d6cfbf89576be1851c932",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/keys/ct_11.bin",
+          "bytes": 192,
+          "sha256": "b1d11ab903335683ca52526889a98c263f87d8e5c1837cc2b28ca783a39acec2",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/keys/ct_12.bin",
+          "bytes": 256,
+          "sha256": "58b2e4c73a477d2dbae528aa3b210a9edb44bcb9e0617b6810851331eff64c5d",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/keys/ct_13.bin",
+          "bytes": 256,
+          "sha256": "06185e822f2435cbe604068e2687d80f62a8eb510e5a78584aed3389f5024e71",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/keys/pub_01.pem",
+          "bytes": 360,
+          "sha256": "2a5af2247b4d214e15135f25e57a4454aa31233d604ad78111373e4796db6c91",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/keys/pub_02.pem",
+          "bytes": 360,
+          "sha256": "b1ce08fc19625cdd582e13c057ceccbdf3069a99f12363492950259fd0dc9de6",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/keys/pub_03.pem",
+          "bytes": 450,
+          "sha256": "52a20b401d8cfe01dcef859a0819c3a8bf31bd78e34931b6e9a82eb0a96008a6",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/keys/pub_04.pem",
+          "bytes": 450,
+          "sha256": "5219879d0046445094e4ba0f2d38a18ff50f57cc94d5036f32a61549cbe81fc2",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/keys/pub_05.pem",
+          "bytes": 450,
+          "sha256": "7e783ddedf64192b371906e56f33b40ef925fb83b368906e8883db0b14da2e29",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/keys/pub_06.pem",
+          "bytes": 271,
+          "sha256": "3e41cccf4f716bfd143d5c177617f2c12b73e68de353a0da9358f4aa9ed40d39",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/keys/pub_07.pem",
+          "bytes": 450,
+          "sha256": "958396abe0e367d2f7884fff5d67f7be7b2c345e0e244f636e17b07f8b651cdd",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/keys/pub_08.pem",
+          "bytes": 450,
+          "sha256": "bdcf3559d2d146127924014fbb25ba13760e27e790ce163113f5b2bf8b8c0f12",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/keys/pub_09.pem",
+          "bytes": 450,
+          "sha256": "ef8c61de1a7bbcd278e3eb3401f76b24831be12fafc07ad253d79dad8fc528d6",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/keys/pub_10.pem",
+          "bytes": 450,
+          "sha256": "0e430e12e7a8a456de47eb115c519e36f0effa63e76aa8fe5d7c50ed65ac58cd",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/keys/pub_11.pem",
+          "bytes": 360,
+          "sha256": "dbbc692a7491e93f7f59adf0e9b3297884c80e7824a1ee473d4b412cfa13c803",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/keys/pub_12.pem",
+          "bytes": 450,
+          "sha256": "4bf7b62daf0bd89b02660267d2f978e9c5ce7e674a814681eb79cd0d2df7b783",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/keys/pub_13.pem",
+          "bytes": 450,
+          "sha256": "7bd1aaefab3c76e8295b82b2af712e53fc4f4f3249fe531058b5636a6c6eb791",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/sha256.json",
+          "bytes": 4317,
+          "sha256": "5a849ac7ca1e15bd41068910dafa479953b8e7539800e727f634863e67c6a8b1",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/stage_a/babel7_manifest.b64v",
+          "bytes": 7665,
+          "sha256": "59423aa89fe1cdc23649f80bd3212c7579eaccd72e4d734f82c465887c30f79d",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/stage_a/crib_header.txt",
+          "bytes": 96,
+          "sha256": "bbca6db3eb0166be70d1e7df92dd5fc4049e344499da8b8ea175fd68295ca5d3",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/vault/babel7_deploy.env",
+          "bytes": 369,
+          "sha256": "bc57d4eb535d6d1a5fa27d8fb7322b668241bd4d164d7505f6575a03f0700e12",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/vault/babel7_vault.enc",
+          "bytes": 896,
+          "sha256": "72884061466a135cc85cfba1765dcc7f1341972db6dc57c84f84d5caf4f25c78",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/vault/decoy_backup.enc",
+          "bytes": 976,
+          "sha256": "bddabd9dda20146ffe5284faffdbae980b6734f0be66f04b02e9070f52321ad0",
+          "decoys": []
+        }
+      ],
+      "total_bytes": 28779,
+      "hints_pack": "KEYS/hints/900-01-crypto-encoding.md",
+      "flag_in_bundle": false
+    },
+    {
+      "dir": "02-forensics",
+      "title": "02 — Диск и дамп molot-node-07 *(Forensics, 850 pts)*",
+      "points": 850,
+      "bundle": "release/850-02-forensics",
+      "files": [
+        {
+          "path": "TASK.md",
+          "bytes": 5856,
+          "sha256": "e34a9e9db2cf959e90e1f509b3d61feb8b07de28e1eff3ba42923ba27caa597d",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/molot-node-07-disk.raw",
+          "bytes": 167772160,
+          "sha256": "f540507d6231bc7fe45a77493b0ce2a687d016578f4c4e2184eb020861bdb5a1",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/molot-node-07-mem.bin",
+          "bytes": 67108864,
+          "sha256": "210f6a1bc4f9285ab9012cb5b6b0f759236cf9c106a54f1c92d461c261839e44",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/sha256.json",
+          "bytes": 279,
+          "sha256": "45ffc6b6c5d4915a81fad78c24a6dff15e93990d0f0df37a8f4c0106e61c34d5",
+          "decoys": []
+        }
+      ],
+      "total_bytes": 234887159,
+      "hints_pack": "KEYS/hints/850-02-forensics.md",
+      "flag_in_bundle": false
+    },
+    {
+      "dir": "03-steganography",
+      "title": "03 — Проект SILENT ECHO *(Steganography, 800 pts)*",
+      "points": 800,
+      "bundle": "release/800-03-steganography",
+      "files": [
+        {
+          "path": "TASK.md",
+          "bytes": 7051,
+          "sha256": "bffb9c75972379c5f925b27c31b17a35bc460bdeab4852a027691c3382f20222",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/echo_shlyuz3_pack.zip",
+          "bytes": 3645794,
+          "sha256": "964ace35efc729f7b523caaa3018b6ad3d50877b77f97046aea5a321e4a42be8",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/sha256.json",
+          "bytes": 279,
+          "sha256": "f0d970ae894d3edf3df928b44707d558207105ab30b8effcc33632274bd4f298",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/soveshchanie_12k_EKHO.wav",
+          "bytes": 3528044,
+          "sha256": "11049076d9fc906cf4b76f3b455d8c2ac9e836cc2666af2ec5cdac7544d1b0bc",
+          "decoys": []
+        }
+      ],
+      "total_bytes": 7181168,
+      "hints_pack": "KEYS/hints/800-03-steganography.md",
+      "flag_in_bundle": false
+    },
+    {
+      "dir": "04-reverse",
+      "title": "04 — Клеть «ЖЕРНОВ» *(Reverse, 1000 pts)*",
+      "points": 1000,
+      "bundle": "release/1000-04-reverse",
+      "files": [
+        {
+          "path": "TASK.md",
+          "bytes": 5776,
+          "sha256": "652575ac5075d01a0fee946af3b7928917c41fa3c1cbec9f46cd68ca31e74195",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/kcore_pack.bin",
+          "bytes": 4070,
+          "sha256": "4cfa7beb9de2500f8129445c017733f1688d0459dc7b497acbf9be6d9ba4c043",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/kcore_unpack",
+          "bytes": 33952,
+          "sha256": "e2555ba91f5c88090cb846967484082344ee26f5bd131c764f0f0a1e0c54a602",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/sha256.json",
+          "bytes": 505,
+          "sha256": "e9785e454759f470a8926845c9da98fc41e865e303109566c02595a80bed7494",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/zernov_vm.py",
+          "bytes": 30721,
+          "sha256": "03888ba7e01ba50d5ca77cc3eb119a59d8b0129a5d1894c350ec061d5a747c11",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/zhernov_fw.zbn",
+          "bytes": 4070,
+          "sha256": "7d7f6cea4d85a8f3538ffcd23134db4ed862482516edfd8aba59417dd8d67c23",
+          "decoys": []
+        }
+      ],
+      "total_bytes": 79094,
+      "hints_pack": "KEYS/hints/1000-04-reverse.md",
+      "flag_in_bundle": false
+    },
+    {
+      "dir": "05-web",
+      "title": "05 · Web · «НАТИНКА, сток-портал подрядчика» — 900 баллов",
+      "points": 900,
+      "bundle": "release/900-05-web",
+      "files": [
+        {
+          "path": "TASK.md",
+          "bytes": 9614,
+          "sha256": "ff5e6b1bbeece0038c0acf95754717a22c932d02948085f16ca80a2e8d3985b2",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/edi-investigation-notes.md",
+          "bytes": 7957,
+          "sha256": "7e87cee8b2e73b9d88c174a7ff6c89b6fccae4945c788690e427261cea4bad5d",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/ntl-template-guide.md",
+          "bytes": 8339,
+          "sha256": "fb1286d418841cf1aea4b3ef8383ac402441bda6a7deedc78824d84ba05674f8",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/openapi.json",
+          "bytes": 14185,
+          "sha256": "52a1f9af4c3089c2fc285c134d3601826167cbed03b295aba62e2e392aff8457",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/portal_snapshot.sqlite",
+          "bytes": 65536,
+          "sha256": "5a6c88cd06b375847dc50c44424797d3102ea2d3ec4269e9c1e75912ae4cee6b",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/sha256.json",
+          "bytes": 746,
+          "sha256": "a2a1eca8ea31b15f56679362134bc5ed28edb10c22d876f36ac80fd5a52ac274",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/vendor_credentials.json",
+          "bytes": 1624,
+          "sha256": "866c9b71a0e48f832977d8de1098e8df8ff17ed103580fb9344cc0b05bda7603",
+          "decoys": []
+        }
+      ],
+      "total_bytes": 108001,
+      "hints_pack": "KEYS/hints/900-05-web.md",
+      "flag_in_bundle": false
+    },
+    {
+      "dir": "06-ppc",
+      "title": "06 — Роботизированный склад СОРОКИН *(PPC / прогр, 700 pts)*",
+      "points": 700,
+      "bundle": "release/700-06-ppc",
+      "files": [
+        {
+          "path": "TASK.md",
+          "bytes": 8483,
+          "sha256": "3b1bf4c030d1426f64856e2aa9a983407e5cb9ec1d55bf706605591d7e54e7a0",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/README.txt",
+          "bytes": 1070,
+          "sha256": "c2e7027c52a7608f0e98c418f54a7ddb8fcdbfc613b5eb378ac8dc09489c1584",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/sha256.json",
+          "bytes": 170,
+          "sha256": "7c53a11531f10e260a310acf194e78369d1542a84cd56e25052aff1455523f06",
+          "decoys": []
+        }
+      ],
+      "total_bytes": 9723,
+      "hints_pack": "KEYS/hints/700-06-ppc.md",
+      "flag_in_bundle": false
+    },
+    {
+      "dir": "07-osint",
+      "title": "07 — Герма по графику *(OSINT, 750 pts)*",
+      "points": 750,
+      "bundle": "release/750-07-osint",
+      "files": [
+        {
+          "path": "TASK.md",
+          "bytes": 10910,
+          "sha256": "8b340547915764fd764b8b935cb03879d9701751b68fa6dfca8aec0546ca9f91",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/forum/index.html",
+          "bytes": 1491,
+          "sha256": "c60fcc17e47543c10190a14f6dfac87876e74f8a30dfd664e873e71234c69a21",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/forum/thread_germa.html",
+          "bytes": 2820,
+          "sha256": "9261a5d0b1074439683694810027b4c398bb2fefb5f94baf556296b4b655995f",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/forum/thread_oborud.html",
+          "bytes": 3190,
+          "sha256": "07ef2f1ffda9a72697608ee4b715487d0fa5430efe81af031ce7d36d9a3caa7a",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/forum/thread_smeny.html",
+          "bytes": 2150,
+          "sha256": "62510debb7be045cc7cb94b64ed50e9b1d39239ba07c9a8f5f559c98186aad48",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/forum/thread_snimki.html",
+          "bytes": 1929,
+          "sha256": "268c3ecf80c1d44045b916abe9ab632b683671d58083e7f5c738d66e41e3bc2c",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/mail/it_inventory_cabins.txt",
+          "bytes": 1720,
+          "sha256": "062af96a5c9363d1fcc44adedfa86009d6e02d613d1d228865a981b4a14f8c8c",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/mail/mail_dou_canteen.txt",
+          "bytes": 386,
+          "sha256": "7c6e519dde1260803748583594481f15b64562258d479d3abfc828ec9f3785e3",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/mail/mail_kibelmann_report.txt",
+          "bytes": 629,
+          "sha256": "88f67399344c27efe853eaa9486caa98ce9cf8d278724a777fa39a0783df9a81",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/mail/mail_shift_swap.txt",
+          "bytes": 398,
+          "sha256": "92be1569c50d21813ac0859a28d925dad5c265e489a27d097297f35bfafdf91c",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/mail/memo_archive_note.txt",
+          "bytes": 617,
+          "sha256": "6878493f6e5d8f8ba7e035b917a47a81aa9f3b5399ba64d3146f4a8d836141c3",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/mail/memo_hr_0239.txt",
+          "bytes": 1071,
+          "sha256": "8b5998a80127ea1ee27a6407b119b070529cb53e628e345e702d377b52e348ab",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/mail/memo_sgs_inspection.txt",
+          "bytes": 473,
+          "sha256": "876e551a525d1def7744eaee73e502808627c8d5cfe5c7c0d87885dfbafd2327",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/mail/memo_vault_seizure.txt",
+          "bytes": 662,
+          "sha256": "faa5e00d64ce18d167468a8ea53827f1f3dbc9c9b77f14e1b35793d53575d8e7",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/mail/memo_vent_shafts.txt",
+          "bytes": 1066,
+          "sha256": "46d5db5bc2b1265b73fd139f16d76c3c555b8816d0326ac38f6fa9e8d75da0d2",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/photos/README_photos.txt",
+          "bytes": 767,
+          "sha256": "911c1ad778bea7d4e6e85007a67653d151b6af6fbe14870100a7712b2f5f71d6",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/photos/photo_0041.jpg",
+          "bytes": 2536,
+          "sha256": "8d9209ce030749bf02ac42944aff11b933fa34381495ea4b99b6bac64bf068fc",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/photos/photo_0058.jpg",
+          "bytes": 2513,
+          "sha256": "03439136ac046318c340d39bdfab5973b761fd88ba8163d742ee7b4de5206da2",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/photos/photo_0087.jpg",
+          "bytes": 2510,
+          "sha256": "ee1ced285574346780f95b81726e1b7d87ae16e4985e9ccc0460ed98196b11d4",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/photos/photo_0102.jpg",
+          "bytes": 2517,
+          "sha256": "683e16a1923effc07a7c1e70a4481d0ffc7e645729fe62391660b11945ff3223",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/photos/photo_0117.jpg",
+          "bytes": 2523,
+          "sha256": "b7db9ba4c7c17cfa0d1c39d6a15be3e3b03cbb6b2e5201b851c4ae2fdf247146",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/photos/photo_0131.png",
+          "bytes": 4360,
+          "sha256": "2fe2713e8d745d4093a9a747ae773d8bad74dc3dd7da2d5f951859da9a624ce1",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/photos/photos_inventory.csv",
+          "bytes": 578,
+          "sha256": "4815cec0b06548c798ae93828083e2786653f10a922a64c92f96cc372ad46108",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/rakura/README_export.txt",
+          "bytes": 920,
+          "sha256": "9f21de2d70ccb917d4b547e9cca5b0519adcb9bc24668ae20fcb34ee1c615cf2",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/rakura/posts.jsonl",
+          "bytes": 139799,
+          "sha256": "150a92647b7cc2e84f9ef088bed3129b02f7345fbfb5266dbad8c1b0917e6df6",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/rakura/profiles.json",
+          "bytes": 16695,
+          "sha256": "b78647e50a3777f18f2714db213cb10657aa74b239d13c31b26df083c7e26b18",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/sha256.json",
+          "bytes": 4470,
+          "sha256": "7e4e9283eebdabfb5352a84b0fa56783815fcf5015a31ba5f98360903c375842",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/site/germa-log.glub/index.html",
+          "bytes": 2862,
+          "sha256": "5e23602e12191825fa69340a3855cc6dd4ef4ebe650c6bca70ae20daadd70cc1",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/site/graf-smena.glub/index.html",
+          "bytes": 2195,
+          "sha256": "7db8e70a53cdece55939b20a790712d4f2e17d8f6e0c4fde4844b35ca705ec5c",
+          "decoys": [
+            "GLUB{decoy_shesterikov_ne_kibeln}"
+          ]
+        },
+        {
+          "path": "artifacts/vault/README_format.txt",
+          "bytes": 1087,
+          "sha256": "28fec20e356b9413bae8b09fa422d434a7fb00a6ef39cfc6611fac239316fdc9",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/vault/seizure_log.txt",
+          "bytes": 688,
+          "sha256": "56e330221b210fa66e6cc1efbb6d1235cb43b3a98b53128ac07298ed3e5c8136",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/vault/shkatulka_7741.bin",
+          "bytes": 732,
+          "sha256": "2a1899da54570c259db703c3f081193522624547cbde25ad76f78dac16a09ff1",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/vault/shkatulka_7752.bin",
+          "bytes": 460,
+          "sha256": "05cf51e5e64c999ba4b43eb83b65cbf053c33ed78f32caa4948bd66f74497eaa",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/whois/README_whois.txt",
+          "bytes": 893,
+          "sha256": "aab119e5b43983b6564dd41a07cb3ec2e4fbada44739c5549b1ee01b9582ff7f",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/whois/whois_history.csv",
+          "bytes": 5130,
+          "sha256": "02f8c1f3a309a7518ce221dfe6983faaa226fcbaa76e23cad9d8cd1f0ea22651",
+          "decoys": []
+        }
+      ],
+      "total_bytes": 223747,
+      "hints_pack": "KEYS/hints/750-07-osint.md",
+      "flag_in_bundle": false
+    },
+    {
+      "dir": "08-network",
+      "title": "08 — Зеркала магистрали ГЛУБИНА-ТРАНС *(Network, 850 pts)*",
+      "points": 850,
+      "bundle": "release/850-08-network",
+      "files": [
+        {
+          "path": "TASK.md",
+          "bytes": 5371,
+          "sha256": "bd4a836caffa99ac0e40e9962c4f1f10425f62442a63928c1f4b13a3254887a7",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/README.txt",
+          "bytes": 903,
+          "sha256": "bd1f85b8b791acbbdf578023d291c5b9bc1e96c0d2c2cb4949870a1fd87f436c",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/sha256.json",
+          "bytes": 513,
+          "sha256": "c9aea37dd0fd31caab741b23035aff563807c671e1a8ec8c78291c957dbc4108",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/span-trunk4-2026-02-08T2210Z.pcap",
+          "bytes": 90649,
+          "sha256": "3b038d2736ba5a2425829bee292a167ce236f090894aab2ad18b17652aa94946",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/span-trunk5-2026-02-08T2244Z.pcap",
+          "bytes": 3831,
+          "sha256": "6996acd9518297c8bbcd2582eba55c3e37dcc6ac154ab6ba141dd9f1944f01f7",
+          "decoys": [
+            "GLUB{decoy_mirror_window_2244_is_not_12k}"
+          ]
+        }
+      ],
+      "total_bytes": 101267,
+      "hints_pack": "KEYS/hints/850-08-network.md",
+      "flag_in_bundle": false
+    },
+    {
+      "dir": "09-mobile",
+      "title": "09 — Обход периметра ГРАН *(Mobile, 800 pts)*",
+      "points": 800,
+      "bundle": "release/800-09-mobile",
+      "files": [
+        {
+          "path": "TASK.md",
+          "bytes": 7412,
+          "sha256": "d110366a3640c139fddf06d873e1a69b3831af65446f8b89ba38c06f1b8c4ae2",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/exhibit_notes.txt",
+          "bytes": 3713,
+          "sha256": "962df17fcd307141f26aba383e4376eb720af7cf5cf25efbe476d97fee06bd49",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/gran_capture.pcap",
+          "bytes": 44113,
+          "sha256": "149eae3afd9878ac8db6a151f6db1a992462f94a9b852431e45cbe85b0657be6",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/gran_tls_raw.pcap",
+          "bytes": 9311,
+          "sha256": "c4381a8dd1ef6ab42934821b14ddc81c964e8f08f7e075bb355ba27c90f6e106",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/gran_traffic.log",
+          "bytes": 21319,
+          "sha256": "efbe6ad40a385d399aa8fc2947b56a5a4e58327a471dcd28a5aa1ef456c94cdc",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/sha256.json",
+          "bytes": 644,
+          "sha256": "11e96b776b5e27efe51965d83780f2138ca6f3a52da1667c8031024cbbcbad53",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/vault_blob.bin",
+          "bytes": 92,
+          "sha256": "db08b6115eb8f1c39cfd6d370c88f6b47efc7bbbd138a093bb952d13cef4f768",
+          "decoys": []
+        }
+      ],
+      "total_bytes": 86604,
+      "hints_pack": "KEYS/hints/800-09-mobile.md",
+      "flag_in_bundle": false
+    },
+    {
+      "dir": "10-pwn",
+      "title": "10 — Сервис телеметрии лифтов КАРЕТКА (KRT-3) *(Pwn, 1000 pts)*",
+      "points": 1000,
+      "bundle": "release/1000-10-pwn",
+      "files": [
+        {
+          "path": "TASK.md",
+          "bytes": 10139,
+          "sha256": "14c9de9f36808f235ab0b0810160fdd48f20851d9b71e68ceb4dcb2f0c1587d9",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/karetka",
+          "bytes": 7200,
+          "sha256": "abc7d7c9b1bf7a08b0f89dfa03975abc27605bfc4d1ec2e454175159fc35f63a",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/karetka.unstripped",
+          "bytes": 20712,
+          "sha256": "ff5ed934bc591b1a7a827cf7d72bccae06020ce9ed0da222bc90b3fd6a71cf0b",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/libc.so.6",
+          "bytes": 1926232,
+          "sha256": "6b4a45352fd0c540a9c7c718f35ce8c8e46a4e482f9d3885a910c32d1a0e1421",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/sha256.json",
+          "bytes": 566,
+          "sha256": "fdec55e0b85607279788c083f9290e1d0c2b4f9c8b5798b969b6e229c1b18cfb",
+          "decoys": []
+        }
+      ],
+      "total_bytes": 1964849,
+      "hints_pack": "KEYS/hints/1000-10-pwn.md",
+      "flag_in_bundle": false
+    },
+    {
+      "dir": "11-cloud",
+      "title": "11 — Папка, которой нет в процедуре *(Cloud, 850 pts)*",
+      "points": 850,
+      "bundle": "release/850-11-cloud",
+      "files": [
+        {
+          "path": "TASK.md",
+          "bytes": 11075,
+          "sha256": "1799720cdd38019842d9378437baacc1001b0014251f01b6aa011d94ba093232",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/README.md",
+          "bytes": 5435,
+          "sha256": "86af7c44e502514b4d90e46933490006db931c5a2eee6bbc9d6f757587d7f775",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/api-responses/artifacts-bucket-listing.xml",
+          "bytes": 1358,
+          "sha256": "47e587731960b2fc86f0dc3ec4ff1827c0586f24ef01de198c91801597e7b428",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/api-responses/close-manifest-2026-02-WH3.anonymous-get.json",
+          "bytes": 1039,
+          "sha256": "cc92bf25a1541798dda4d7b6fdb6dba65b8d8e901435bb1e3f143999714ebccd",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/api-responses/cloudtrail-excerpt.json",
+          "bytes": 1458,
+          "sha256": "28030b18c4f6d2679d4022a0eb47ccb4c8cae1be904aaf2ca13d315e2b70dce5",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/api-responses/deploy-notes.txt",
+          "bytes": 1474,
+          "sha256": "078997129eaa1515d76af36710438e287be396224c59347a2e40cd250f68ff41",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/api-responses/legacy-2025-12-decrypt-result.json",
+          "bytes": 507,
+          "sha256": "4c713af4a15929b46277a614dcb5a0baef6afea66748f2f9251341da3ee47ef5",
+          "decoys": [
+            "GLUB{decoy_archive_2025_12_is_not_the_vault}"
+          ]
+        },
+        {
+          "path": "artifacts/api-responses/wire-client-snippet.py",
+          "bytes": 2235,
+          "sha256": "8a1dbec7e955aba70b2d9d61bf04efefb376ce05f173d2de4b8b28b33de350a2",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/credentials/ci-bot-natinka.json",
+          "bytes": 632,
+          "sha256": "5dfc21ffdc49896efed121e918b04e92c61fa5adab4c3b972c968f4bd2b60fcc",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/policies/ci-bot-natinka.policies.json",
+          "bytes": 3474,
+          "sha256": "8b4b853814c2d9ebaa2140f0c532fe13d0c4cc120ca1d4fbd90ab9d386deef5d",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/policies/resource-policies.json",
+          "bytes": 3743,
+          "sha256": "0db955eb02275c8ee7d0a87b89dcd51dd1ca5a2b9c713b9048d728abfe89984e",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/sha256.json",
+          "bytes": 1523,
+          "sha256": "08b1fca2e9261db7845ab674edea2c64a2491f5a2f193706954fe32ef5904701",
+          "decoys": []
+        }
+      ],
+      "total_bytes": 33953,
+      "hints_pack": "KEYS/hints/850-11-cloud.md",
+      "flag_in_bundle": false
+    },
+    {
+      "dir": "12-ai-llm",
+      "title": "12 — Ассистент ГУСЛЬ *(AI/LLM Security, 800 pts)*",
+      "points": 800,
+      "bundle": "release/800-12-ai-llm",
+      "files": [
+        {
+          "path": "TASK.md",
+          "bytes": 9414,
+          "sha256": "3d0f6b0243fc486c986cae29f9e48994910357c926612df06ac9a051a08644e7",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/INDEX.md",
+          "bytes": 2021,
+          "sha256": "b2c5c8e9d78b1280ed988f3245da2ffcad52eeb85a9f37f4ea4a679c949796d9",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/api-dump/GUSL-PUBLIC-API.json",
+          "bytes": 6292,
+          "sha256": "9d92056a93f1279126612afa554c00c448adb05e8a5c530ecf9dc3fc43e8a179",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/api-dump/GUSL-PUBLIC-EXAMPLES.json",
+          "bytes": 26797,
+          "sha256": "21adf57bd8d60c65a1056806efae5eb6f70a3db3c6d50cb4f015d22a5f59473f",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/dumps/trust-model.active.json",
+          "bytes": 11751,
+          "sha256": "9893d8622588e07122a56a2adabd13367e5cedab99db12271af8de3b789e3092",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/dumps/trust-model.active.txt",
+          "bytes": 8691,
+          "sha256": "b1879f7b3c5a30a37b1ce6f42694509672e12bb4a8e6a252e61dcc68e6737f42",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/logs/session-gusl-2026-02-17.jsonl",
+          "bytes": 60618,
+          "sha256": "180bfacc54e8f6f4132e31e224e55a915c78597c8f9fee5e8b7f0e246ff18e9d",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/sha256.json",
+          "bytes": 1637,
+          "sha256": "f31d2de4c4a2407b945fe7fcb9f7b8317a92a7663a9b614faea31b897653414c",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/spec/GUSL-AGENT-SPEC-v3.2.md",
+          "bytes": 23101,
+          "sha256": "fb6cd2192bb40b891fa5abe55f0573ebf7693bb270e4968b3370a2f4f873792a",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/tickets/T-1179.json",
+          "bytes": 568,
+          "sha256": "494593be04d9b8bb2b32c216beedf804581c7b9239da4057d50247e5c50da1da",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/tickets/T-1187.json",
+          "bytes": 681,
+          "sha256": "8a7dbe4115eb4a6378c7012fbbc616a6d3454ffb86026d9f4721a5e89ceef5cb",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/tickets/T-1204.json",
+          "bytes": 1051,
+          "sha256": "07715a9b02460c4069bb8c54e2c13f7905600e54536a6e5e69ce14e88c6f42e5",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/tickets/tickets-index.json",
+          "bytes": 870,
+          "sha256": "7184c1efd05fddbf9c38c848a615f6efb0efa6e636c8fe5039ecf6a341f7b617",
+          "decoys": []
+        }
+      ],
+      "total_bytes": 153492,
+      "hints_pack": "KEYS/hints/800-12-ai-llm.md",
+      "flag_in_bundle": false
+    },
+    {
+      "dir": "13-blockchain",
+      "title": "13 — Escrow-контракт ХРОНОГРАФ *(Blockchain, 900 pts)*",
+      "points": 900,
+      "bundle": "release/900-13-blockchain",
+      "files": [
+        {
+          "path": "TASK.md",
+          "bytes": 14626,
+          "sha256": "10ba13108aa8ebabedcea3b6ffd5f409890292d2cbd3a101a05fb4ff083f89db",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/README.md",
+          "bytes": 3777,
+          "sha256": "980ebe2f079761c0ddc3e36112e0d4bfd62afc00d668bd57ace9b6a0b9bbb634",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/contracts.json",
+          "bytes": 8183,
+          "sha256": "00b9d4c704233635672ea53b288746c73fd5ebd5e0b2cebbfec6fb17e0ad6c00",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/explorer/abis.json",
+          "bytes": 33385,
+          "sha256": "778529f74478819ccf7b3cb33e0a7ae0640a889c83efc03499f438134dd33b83",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/explorer/accounts.csv",
+          "bytes": 4718,
+          "sha256": "afc959f167b1173df41ce7816ac71939f5557e1c8a15f9cae25b9fa7ea8c3b39",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/explorer/sources/Chronograph.sol",
+          "bytes": 8429,
+          "sha256": "d77b0cd801292e90758aa3ac9b562c9041abd1679f332b0de277904fd3ea1a3b",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/explorer/sources/ChronographProxy.sol",
+          "bytes": 2495,
+          "sha256": "140938f6880d0d34fa48995e0f7daa9bff32c6f3d713a03a04886f167fd2c9e9",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/explorer/sources/GlbToken.sol",
+          "bytes": 3562,
+          "sha256": "09e58f47215dd4cbc1f0bf6dac7d7b3eee5c64c0716cd462be5fb3e434b21996",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/explorer/sources/LegacySettler.sol",
+          "bytes": 1110,
+          "sha256": "c4948ef45b4d8368eb1002d0310e0dd33af78ca256778ce2677564f6a713e32e",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/explorer/sources/MiniAMM.sol",
+          "bytes": 3673,
+          "sha256": "420cab024a5880db09fcb000b205d3db6bdfa1684a5419005d6d29d708839308",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/explorer/sources/UsdlToken.sol",
+          "bytes": 1943,
+          "sha256": "6eef3f482b2b6980cef43a2be2307e6c9c7e58c6e940dc5d77e1d5be13480227",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/explorer/transactions.csv",
+          "bytes": 13728,
+          "sha256": "3a55361af12dcffd56a8dfd5d29f6529d86c170e67f49fa22c613fec50621dd9",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/glubina-12k/amm/reserves.json",
+          "bytes": 4481,
+          "sha256": "e908f2cff0af8d6d60c1d1d8249ccd67d0ebad90f6044318c73f6cec4276e555",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/glubina-12k/blocks.json",
+          "bytes": 13326,
+          "sha256": "5c34913a7590dbd465e2918765d190206e9471e9101e66aa560b19d5589e2097",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/glubina-12k/escrow/attempts.json",
+          "bytes": 5585,
+          "sha256": "a17f5bf219daf0e261000c1030e54c949aff5b6acf3a6eff1ad51842238c4cdf",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/glubina-12k/escrow/deals.json",
+          "bytes": 2668,
+          "sha256": "d2de78982c1ef80d381dccc67ac4b63c669df2c887466aad7a680cd4aaba3ca6",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/glubina-12k/events.json",
+          "bytes": 9817,
+          "sha256": "09c9b67c213ae462ef7535d972e61854bbf69972baf772bc3f1bc7ed83906e95",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/glubina-12k/receipts.json",
+          "bytes": 47103,
+          "sha256": "d02cf8764b3e5aca8cabfff7547bb86aced0d12bbe2435d3ddf7c8af5a806765",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/glubina-12k/state.json",
+          "bytes": 59391,
+          "sha256": "81a169b04f5c0d6221ccbb2f96738d35d0c6535d209ccc54f0448303b084b153",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/glubina-12k/tokens.json",
+          "bytes": 11800,
+          "sha256": "02de2ce20338d65a00641ed5b1f126e664402bfcacadec3673a524a73fe03219",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/glubina-12k/transactions.json",
+          "bytes": 88591,
+          "sha256": "a804b2cf6c078dacc83693737890d409490fe46dca07a55fa00ada260d393cdb",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/legacy-7351/amm/reserves.json",
+          "bytes": 4502,
+          "sha256": "b55c53ea25eeccd02c8b879c6c84d5b9a0692453ee1f5fc6405f7483040f99cf",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/legacy-7351/blocks.json",
+          "bytes": 12055,
+          "sha256": "ba4fc8249a48ddd5c070bbc9f94ae26247f3fb7470f9568e52e33a7ca55b804e",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/legacy-7351/escrow/attempts.json",
+          "bytes": 4774,
+          "sha256": "edb37471ca75fad68bca3084da188c65b2c568ef4034a22c411ef5ce569b7b4a",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/legacy-7351/escrow/deals.json",
+          "bytes": 4353,
+          "sha256": "4d5ad29abe7189add8f6cdad19f819a2eae4f78758997db35d23d98f3c7e4aa8",
+          "decoys": [
+            "GLUB{decoy_chronograph_stale_settlement_not_flag}"
+          ]
+        },
+        {
+          "path": "artifacts/legacy-7351/events.json",
+          "bytes": 9267,
+          "sha256": "8b37ded765e1adf8317e9205c2d56b329ca245d450808be1aaec54a60d20c14e",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/legacy-7351/receipts.json",
+          "bytes": 40862,
+          "sha256": "67aec6e7ab03b906c8daffb45a41301e417ababdecc5ab552a3926848a7455af",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/legacy-7351/state.json",
+          "bytes": 63405,
+          "sha256": "9719eb7f74c0daca91b37cdd3473f922761012a3142e45a07df811be9a00768f",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/legacy-7351/tokens.json",
+          "bytes": 11543,
+          "sha256": "16952a84f9c64ef8e367bdf81a698fcd42bd336647c37f180c8fce3239fc8d21",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/legacy-7351/transactions.json",
+          "bytes": 98158,
+          "sha256": "73ca0bc14946ff0b47b7577a7dad6cfafa9239a17e86649abb5b35f1adf996ae",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/meta.json",
+          "bytes": 4550,
+          "sha256": "22f405b2c7b8dc496656ec1a91115559f5598886de1c0b6d774925c4bc8086db",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/sha256.json",
+          "bytes": 4943,
+          "sha256": "0aaf005188dcf6662704b8af20e7709ac84dcdc845bca13307baf85410b44183",
+          "decoys": []
+        }
+      ],
+      "total_bytes": 600803,
+      "hints_pack": "KEYS/hints/900-13-blockchain.md",
+      "flag_in_bundle": false
+    },
+    {
+      "dir": "14-attack-defense",
+      "title": "14 — Атака–Защита: Сегмент «ГЛУБИНА» *(Attack–Defense, 5×~600 pts)*",
+      "points": 0,
+      "bundle": "release/0-14-attack-defense",
+      "files": [
+        {
+          "path": "TASK.md",
+          "bytes": 12014,
+          "sha256": "ac12dbef13bb0c34b84c115e16a8caf5ffa5caac8ff75a12c3aed5872879e8ba",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/README.md",
+          "bytes": 6272,
+          "sha256": "6fcafe879f6fae111a75a7d0c2c85c61f9e148be7cb1365d7fbae65b7c0b3225",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/bur/bur_server.py",
+          "bytes": 13319,
+          "sha256": "0fb2c3c032d457655392201cc07d7852a3cc9924ab90bb5bb8ca8c1af9c5ed5e",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/kairos/kairos_server.py",
+          "bytes": 11242,
+          "sha256": "a7fef830d08e5401858325a6fd1498acaf7df583f133b2f462b864b5aaeb7635",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/pochta/pochta_server.py",
+          "bytes": 11792,
+          "sha256": "f309bfe20a9fe9e5f2f55d4785b595b06da4fd4d9cc5e702304fd8895c194a4a",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/sha256.json",
+          "bytes": 952,
+          "sha256": "77bb8dd6ae41a3e586d5f01359eede72d73409baa739b5da5507dc084a8e06ea",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/svet/svet_server.py",
+          "bytes": 8690,
+          "sha256": "306af594e80e92f8e7b94ee5b0f87c37812aa00b52a6aff769b4e12411106d41",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/uzel/uzel_server.py",
+          "bytes": 10028,
+          "sha256": "ef1cb8f4a875f6aaebc186919cdbd9a72a0a73e9c5728fbe340512f0c753382c",
+          "decoys": [
+            "GLUB{decoy_uzel_wrong_path}"
+          ]
+        }
+      ],
+      "total_bytes": 74309,
+      "hints_pack": "KEYS/hints/0-14-attack-defense.md",
+      "flag_in_bundle": false
+    },
+    {
+      "dir": "15-boot2root",
+      "title": "15 — Boot2Root: ОБЪЕКТ 12-К *(Boot2Root, бонус)*",
+      "points": 0,
+      "bundle": "release/0-15-boot2root",
+      "files": [
+        {
+          "path": "TASK.md",
+          "bytes": 7043,
+          "sha256": "89df8cf9c9d615962ec191296f17a87746b236fc8b28d7ff308c48915d7fc851",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/README-glub.txt",
+          "bytes": 2933,
+          "sha256": "f8e5752626de024615538c8870ae6533721b68dd984ef8103d4287ff5cb84a2a",
+          "decoys": []
+        },
+        {
+          "path": "artifacts/sha256.json",
+          "bytes": 130,
+          "sha256": "99dc910e075973a1ee6ce241bc88b57ec53ac21ab12737674b416c623b7c0484",
+          "decoys": []
+        }
+      ],
+      "total_bytes": 10106,
+      "hints_pack": "KEYS/hints/0-15-boot2root.md",
+      "flag_in_bundle": false
+    }
+  ],
+  "blocked_for_leak": [],
+  "skipped": [],
+  "players_doc": "release/START-HERE.md"
+}

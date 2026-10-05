@@ -1,0 +1,18 @@
+{
+  "algorithm": "sha256",
+  "note": "выдаётся игрокам (TASK.md «Что дано»); manifest не включает сам себя",
+  "files": {
+    "karetka": {
+      "sha256": "abc7d7c9b1bf7a08b0f89dfa03975abc27605bfc4d1ec2e454175159fc35f63a",
+      "size": 7200
+    },
+    "karetka.unstripped": {
+      "sha256": "ff5ed934bc591b1a7a827cf7d72bccae06020ce9ed0da222bc90b3fd6a71cf0b",
+      "size": 20712
+    },
+    "libc.so.6": {
+      "sha256": "6b4a45352fd0c540a9c7c718f35ce8c8e46a4e482f9d3885a910c32d1a0e1421",
+      "size": 1926232
+    }
+  }
+}
